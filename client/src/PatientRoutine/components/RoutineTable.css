@@ -1,0 +1,17 @@
+.view_icon {
+  width: 27px;
+  height: auto;
+  padding-right: 7px;
+}
+
+.edit_icon {
+  width: 25px;
+  height: auto;
+  padding-right: 7px;
+}
+
+.dlt_icon {
+  width: 20px;
+  height: auto;
+  padding-right: 6px;
+}

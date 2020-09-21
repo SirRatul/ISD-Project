@@ -1,0 +1,36 @@
+
+
+.wholeWidth{
+    width: 100% !important;
+}
+
+.forForm{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.addPatientBtn{
+    margin-top: 30px;
+}
+.AddPatientImg{
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .headlineForXs{
+        font-size: 40px !important;
+        margin-right: 120px !important;
+    }
+  }
+
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .AddPatientImg{
+        margin-top: 120px;
+        margin-left: 70px;
+    }
+    .forForm{
+        margin-left: 10px;
+      }
+  }

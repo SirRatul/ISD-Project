@@ -1,0 +1,88 @@
+.sliderimage {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.marginSliderButton {
+  margin-top: 2vw !important;
+  margin-left: -1vw !important;
+  font-size: 1.4vw !important;
+  padding: 0.55vw 0.8vw !important;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .marginSliderButton {
+    margin-top: -8vw !important;
+    margin-left: -1vw !important;
+    font-size: 1.4vw !important;
+    padding: 0.55vw 0.8vw !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .marginSliderButton {
+    margin-top: -11vw !important;
+    margin-left: -1vw !important;
+    font-size: 1.4vw !important;
+    padding: 0.55vw 0.8vw !important;
+  }
+}
+
+/*@media only screen and (min-width: 1500px) and (max-width: 2100px){
+	.marginSliderButton{
+		margin-top: -16rem!important;
+		margin-left: -8rem!important;
+		font-size: 1.75rem!important;
+	}
+	.btn-lg{
+		padding: 0.55rem 0.8rem!important;
+		line-height: 1.5!important;
+	}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px){
+	.marginSliderButton{
+		margin-top: -10rem!important;
+		margin-left: -2rem!important;
+		font-size: 1.25rem!important;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+	.marginSliderButton{
+		margin-top: -5rem!important;
+		margin-left: -1rem!important;
+		font-size: 1.25rem!important;
+	}
+	.btn-lg{
+		padding: 0.25rem 0.4rem!important;
+		line-height: 1.5!important;
+	}
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+	.marginSliderButton{
+		margin-top: -3.3rem!important;
+		margin-left: -1rem!important;
+		font-size: 1.0rem!important;
+	}
+	.btn-lg{
+		padding: 0.25rem 0.3rem!important;
+		line-height: 1.5!important;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.marginSliderButton{
+		margin-top: -1.3rem!important;
+		margin-left: -1rem!important;
+		font-size: 0.85rem!important;
+	}
+	.btn-lg{
+		padding: 0.1rem 0.1rem!important;
+		line-height: 1.5!important;
+	}
+}*/

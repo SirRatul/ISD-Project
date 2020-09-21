@@ -1,0 +1,44 @@
+.headline {
+  margin-left: 90px;
+  margin-top: -100px;
+  z-index: 1;
+  color: white;
+}
+.routineImg {
+  margin-top: 80px;
+  
+}
+
+.forPatientRoutine{
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner {
+    height: 150px;
+    
+  }
+  .headline {
+    
+    margin-top: -150px;
+    z-index: 1;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .routineImg {
+    margin-top: 200px;
+    margin-left: 80px;
+    
+  }
+  .forPatientRoutine{
+    margin-left: 10px;
+  }
+  .headline {
+    margin-left: 50px;
+    
+    z-index: 1;
+    color: white;
+  }
+}

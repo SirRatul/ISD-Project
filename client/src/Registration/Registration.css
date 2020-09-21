@@ -1,0 +1,123 @@
+.register_background {
+  background-image: url("../Shared/img/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teresa-logo {
+  width: 100px;
+  height: auto;
+}
+
+.doctor-image {
+  width: 65% !important;
+}
+
+.login_form {
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group {
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.signup-text {
+  font-size: 30px !important;
+  color: #2c2c6a;
+}
+
+.form-input-background {
+  background-color: #e6e6e6 !important;
+}
+
+.form-group-reg {
+  margin: 20px;
+}
+.input-field-reg {
+  margin-top: 30px;
+  position: relative;
+
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-label {
+  position: absolute;
+  top: -0.25vw;
+
+  width: 100%;
+  color: #706b6b;
+  transition: 0.2s all;
+  cursor: text;
+  padding-left: 15px;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  padding-left: 5px;
+  color: rgb(104, 97, 97);
+}
+input:invalid {
+  outline: 0;
+}
+
+input:focus ~ .input-label,
+input:valid ~ .input-label,
+input:not([value=""]) ~ .input-label {
+  font-size: 16px;
+  top: -38px;
+
+  color: #585757;
+}
+.radio-btn {
+  margin-top: 15px;
+}
+
+input[type="radio"]:focus ~ label,
+input[type="radio"]:valid ~ label,
+input[type="radio"] ~ label {
+  font-size: 30px !important;
+  position: relative;
+  margin-top: 50px;
+
+  color: #585757;
+}
+
+#gender {
+  margin-top: 8px;
+}
+.Gender_Label {
+  position: relative;
+  top: +3px;
+  margin-left: 15px;
+  margin-bottom: -10px !important;
+  color: #585757;
+}
+
+.abc {
+  margin-top: 10px;
+  text-align: left !important;
+  align-items: flex-start !important;
+}
+
+.Register-as {
+  margin-top: 20px;
+}
+
+.spinner-border {
+  display: block !important;
+}

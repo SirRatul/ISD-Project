@@ -1,0 +1,33 @@
+.footer-icon {
+  background-color: #020624 !important;
+  border: none !important;
+  padding-left: 0.3vw !important;
+  padding-right: 1.2vw !important;
+}
+
+@media only screen and (min-width: 576px) {
+  .footer-copyright-text {
+    font-size: 1.3vw !important;
+  }
+
+  .footer-icon {
+    font-size: 2.2vw !important;
+    background-color: #020624 !important;
+    border: none !important;
+    padding-left: 0.3vw !important;
+    padding-right: 1.2vw !important;
+  }
+}
+
+.listgroup-style {
+  background-color: #020624 !important;
+  padding-left: 0vw !important;
+}
+
+.first-footer-row {
+  margin-bottom: 2vw !important;
+}
+
+.btnGrpColor {
+  background-color: #020624 !important;
+}

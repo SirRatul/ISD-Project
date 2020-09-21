@@ -1,0 +1,29 @@
+.app-section-header-text {
+  font-size: 4vw !important;
+}
+
+.heading-text {
+  font-size: 3.5vw !important;
+  margin-bottom: 0.3vw !important;
+  line-height: 1.2 !important;
+  margin-top: 2vw !important;
+}
+
+.main-text-app-section {
+  font-size: 1.5vw !important;
+  margin-top: 2vw !important;
+}
+
+.app-one-column {
+  margin-bottom: 5vw !important;
+}
+
+.app-download-button {
+  font-size: 1.2vw !important;
+  font-weight: bold !important;
+  color: #0d348c !important;
+}
+
+.app-download-button-image {
+  width: 1.9vw !important;
+}

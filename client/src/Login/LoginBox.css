@@ -1,0 +1,95 @@
+.login_background {
+  background-image: url("../Shared/img/Background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teresa-logo {
+  width: 100px;
+  height: auto;
+}
+
+.doctor-image {
+  width: 65% !important;
+}
+
+.login_form {
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-group {
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.login-text {
+  font-size: 30px !important;
+  color: #2c2c6a;
+}
+
+.form-input-background {
+  background-color: #e6e6e6 !important;
+}
+
+.form-group {
+  margin-top: 100px;
+}
+.input-field {
+  margin-top: 30px;
+  position: relative;
+  width: 250px;
+  height: 44px;
+  line-height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-input-label {
+  position: absolute;
+  top: -0.15vw;
+
+  width: 100%;
+  color: #706b6b;
+  transition: 0.2s all;
+  cursor: text;
+  padding-left: 15px;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid #d3d3d3;
+  box-shadow: none;
+  padding-left: 5px;
+  color: rgb(104, 97, 97);
+}
+input:invalid {
+  outline: 0;
+}
+
+input:focus ~ .login-input-label,
+input:valid ~ .login-input-label,
+input:not([value=""]) ~ .login-input-label {
+  font-size: 16px;
+  top: -38px;
+
+  color: #585757;
+}
+
+.Forgot_pass {
+  width: 250px;
+  height: 44px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+}
